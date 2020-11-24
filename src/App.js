@@ -1,11 +1,12 @@
 import React from "react"
 import './App.css';
+import Message from "./conponents/greet"
 
 function App(){
  
   return(
     <div>
-      <h2>hello world</h2>
+       <Message />
     </div>
   )
 }
